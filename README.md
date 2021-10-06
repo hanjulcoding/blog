@@ -1,5 +1,5 @@
 # 🏝 한 줄 코딩! ⌨🔨😆 블로그
-[https://hanjulcoding.com](https://hanjulcoding.com)
+[https://blog.hanjulcoding.com](https://blog.hanjulcoding.com)
 
 ### YouTube
 
