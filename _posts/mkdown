@@ -1,0 +1,46 @@
+#!/bin/sh
+
+# If you want to use this script, refer below comment :)
+# $1 is the first argument.
+# ** The first argument is to input file name you want.
+
+# **** Try this script ****
+# > ./mkdown filename
+
+# Check if the argument which has the file name is ok or not
+# When the file name is not ok, exit this script.
+if [ -z $1 ];
+then
+  echo "\033[41;37madd input file name to make markdown file\033[0m"
+	exit
+fi
+
+TODAY=$(date '+%Y-%m-%d')
+CLOCK=$(date '+%H:%M:%S %z')
+FILENAME=$1
+EXTENTION='.md'
+NEWFILE=$TODAY"-"$1$EXTENTION
+
+# Prevent deduplicated file name
+echo "*** Check if the file name is duplicated or not *** "
+for filename in $(ls -l | awk '{ print $9 }'); do
+  if [ ${filename} -ef ${NEWFILE} ]; then
+      echo "\033[41;37mthis is same file! so, we close this script to prevent removing this content!\033[0m"
+      exit
+  fi
+done
+
+echo "\033[46;30m--- No duplicate file names in the current folder :) ---\033[0m"
+
+touch $NEWFILE
+
+echo '---' > $NEWFILE
+echo 'title: ""' >> $NEWFILE
+echo 'author: ""' >> $NEWFILE
+echo 'date: '$TODAY $CLOCK >> $NEWFILE
+echo 'categories: [input category you want]'>> $NEWFILE
+echo 'tags: [input tags you want]' >> $NEWFILE
+echo 'pin: true' >> $NEWFILE
+echo '---' >> $NEWFILE
+
+echo "The file you created is \033[43;31m${NEWFILE}\033[0m. \033[44;37mEnter a title and author in your file!!\033[0m"
