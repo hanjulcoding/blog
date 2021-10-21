@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # If you want to use this script, refer below comment :)
 # $1 is the first argument.
@@ -35,8 +35,8 @@ echo "\033[46;30m--- No duplicate file names in the current folder :) ---\033[0m
 touch $NEWFILE
 
 echo '---' > $NEWFILE
-echo 'title: ""' >> $NEWFILE
-echo 'author: ""' >> $NEWFILE
+echo 'title: 제목' >> $NEWFILE
+echo 'author: 닉네임' >> $NEWFILE
 echo 'date: '$TODAY $CLOCK >> $NEWFILE
 echo 'categories: [input category you want]'>> $NEWFILE
 echo 'tags: [input tags you want]' >> $NEWFILE
