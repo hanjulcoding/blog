@@ -1,23 +1,10 @@
 # 🏝 한 줄 코딩! ⌨🔨😆 블로그
 [https://blog.hanjulcoding.com](https://blog.hanjulcoding.com)
 
-### YouTube
-
-[https://www.youtube.com/channel/UCyfUmIe1NMBCEzsO2iXBzBQ](https://www.youtube.com/channel/UCyfUmIe1NMBCEzsO2iXBzBQ)
-
 ---
 
 ### Github
 [https://github.com/hanjulcoding/hanjulcoding.github.io](https://github.com/hanjulcoding/hanjulcoding.github.io)
-
----
-
-### 카카오 오픈채팅방
-"한 줄 코딩" 검색 또는
-
-[https://open.kakao.com/o/gBCDGDUc](https://open.kakao.com/o/gBCDGDUc)
-
-코드 : 1230
 
 ---
 
