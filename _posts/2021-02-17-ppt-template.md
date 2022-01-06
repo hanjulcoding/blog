@@ -11,4 +11,4 @@ pin: true
 - - -
 구글드라이브 : [hanjulcoding_template.pptx][ppt_template]
 
-[ppt_template]: https://drive.google.com/file/d/1Ngix-s2lYCn-6p2Rk5BkX4dfZEEUGNmE/view?usp=sharing
+[ppt_template]: https://drive.google.com/file/d/1MrW6TL5BCHRSz5Ob0g64QhRrd68GkiSI/view?usp=sharing
