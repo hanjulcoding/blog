@@ -4,10 +4,6 @@
   type: github
   icon: 'fab fa-github-alt'
 -
-  type: youtube
-  icon: 'fab fa-youtube'
-  url: 'https://www.youtube.com/channel/UCyfUmIe1NMBCEzsO2iXBzBQ'
--
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
