@@ -82,10 +82,6 @@ Pull Request 를 합니다.
 
 ![pr5](/assets/img/20210217/pr5.png)
 
-카톡방에 PR 했다고 알려주시면 바로 Merge 할게요!
-
-꼭 알려주세요~!
-
 
 ## 5. 원본 저장소에서 업데이트 받기
 
@@ -136,22 +132,4 @@ git merge upstream/main
 git push
 ```
 
-
-- - -
-
-### Youtube
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5huAvcd1DPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Github
-[https://github.com/hanjulcoding/hanjulcoding.github.io](https://github.com/hanjulcoding/hanjulcoding.github.io)
-
-### 카카오 오픈채팅방
-"한 줄 코딩" 검색 또는
-
-[https://open.kakao.com/o/gBCDGDUc](https://open.kakao.com/o/gBCDGDUc)
-
-코드 : 1230
-
-[youtube]: https://www.youtube.com/channel/UCyfUmIe1NMBCEzsO2iXBzBQ
 [github]: https://github.com/hanjulcoding/hanjulcoding.github.io
-[kakao]: https://open.kakao.com/o/gBCDGDUc
