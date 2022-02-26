@@ -20,9 +20,7 @@ title: 한줄코딩
 tagline: 신나는 코딩 한 줄!
 
 description: >-                         # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  IT 인들을 위한 커뮤니티
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.hanjulcoding.com'
