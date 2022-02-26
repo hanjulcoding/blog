@@ -1,6 +1,6 @@
 ---
 title: 한줄코딩의 운영진을 모집합니다.
-author: 닉네임
+author: 발가락
 date: 2022-02-21 16:19:39 +0900
 categories: [공지]
 tags: [운영진]
