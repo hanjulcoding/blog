@@ -11,7 +11,7 @@
 # When the file name is not ok, exit this script.
 if [ -z $1 ];
 then
-  echo "\033[41;37madd input file name to make markdown file\033[0m"
+  echo -e "\033[41;37madd input file name to make markdown file\033[0m"
 	exit
 fi
 
@@ -25,12 +25,12 @@ NEWFILE=$TODAY"-"$1$EXTENTION
 echo "*** Check if the file name is duplicated or not *** "
 for filename in $(ls -l | awk '{ print $9 }'); do
   if [ ${filename} -ef ${NEWFILE} ]; then
-      echo "\033[41;37mthis is same file! so, we close this script to prevent removing this content!\033[0m"
+      echo -e "\033[41;37mthis is same file! so, we close this script to prevent removing this content!\033[0m"
       exit
   fi
 done
 
-echo "\033[46;30m--- No duplicate file names in the current folder :) ---\033[0m"
+echo -e "\033[46;30m--- No duplicate file names in the current folder :) ---\033[0m"
 
 touch $NEWFILE
 
@@ -43,4 +43,4 @@ echo 'tags: [input tags you want]' >> $NEWFILE
 echo 'pin: true' >> $NEWFILE
 echo '---' >> $NEWFILE
 
-echo "The file you created is \033[43;31m${NEWFILE}\033[0m. \033[44;37mEnter a title and author in your file!!\033[0m"
+echo -e "The file you created is \033[43;31m${NEWFILE}\033[0m. \033[44;37mEnter a title and author in your file!!\033[0m"
