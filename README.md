@@ -1,6 +1,10 @@
 # 🏝 한 줄 코딩! ⌨🔨😆 블로그
 [https://blog.hanjulcoding.com](https://blog.hanjulcoding.com)
 
+### YouTube
+
+[https://www.youtube.com/channel/UCS6loxXbMlAL8VwSVM4UIKQ](https://www.youtube.com/channel/UCS6loxXbMlAL8VwSVM4UIKQ)
+
 ---
 
 ### Github
