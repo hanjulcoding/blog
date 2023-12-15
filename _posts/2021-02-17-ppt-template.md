@@ -1,6 +1,6 @@
 ---
 title: PPT 템플릿
-author: 발가락
+author: root
 date: 2021-02-17 01:12:32 +0900
 categories: [Tutorial]
 tags: [PPT]

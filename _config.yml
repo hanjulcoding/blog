@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
-baseurl: ''
+baseurl: ""
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.hanjulcoding.com'
 
-author: hanjulcoding # change to your full name
+author: "hanjulcoding" # change to your full name
 
 github:
   username: hanjulcoding # change to your github username
@@ -107,9 +107,6 @@ pwa:
   enabled: true # the option for PWA feature
 
 paginate: 10
-
-# The base URL of your site
-baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 

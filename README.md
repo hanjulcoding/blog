@@ -17,8 +17,14 @@
 로컬 서버 실행 (http://localhost:4000)
 ```
 gem install bundler jekyll
-cd my-awesome-site
+bundle install
 bundle exec jekyll s
+```
+
+배포 전 테스트
+```
+bundle exec jekyll build
+bundle exec htmlproofer _site \-\-disable-external=true \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 ```
   
 ## License

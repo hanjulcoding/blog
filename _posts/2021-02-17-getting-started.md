@@ -1,6 +1,6 @@
 ---
 title: 🏝 한 줄 코딩! ⌨🔨😆 블로그 사용법
-author: 발가락
+author: root
 date: 2021-03-17 17:54:48 +0900
 categories: [Tutorial]
 tags: [getting started]
