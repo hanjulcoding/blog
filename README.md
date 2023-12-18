@@ -8,7 +8,7 @@
 ---
 
 ### Github
-[https://github.com/hanjulcoding/hanjulcoding.github.io](https://github.com/hanjulcoding/hanjulcoding.github.io)
+[https://github.com/hanjulcoding/legacy-blog](https://github.com/hanjulcoding/legacy-blog)
 
 ---
 
